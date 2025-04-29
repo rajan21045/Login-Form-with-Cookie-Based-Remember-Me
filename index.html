@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Form Registration</h3>
+    <fieldset>
+<legend>Sign In</legend>
+        <form action="check.php" method="post">
+            <label for="text">Name :</label>
+            <input type="text" name="name" id="text" required><br><br>
+    
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required><br><br>
+    
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" required><br><br>
+    
+            <label for="cpassword">Confirm Password :</label>
+            <input type="password" name="cpassword" id="cpassword" required><br><br>
+    
+            <label>
+                <input type="checkbox"  name="remember"> Remember Me
+              </label><br>
+    
+            <input type="submit" name="submit" value="submit">&nbsp;
+            <input type="reset" value="Reset"><br><br>
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    font-family: poppins, sans-serif;
+}
+fieldset
+{
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 300px;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    flex-direction: column; /* so heading and form stack vertically */
+}
