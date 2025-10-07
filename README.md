@@ -1,5 +1,5 @@
 # PHP Login with Remember Me (Cookie-Based)
-
+ 
 This is a simple PHP login form that uses a **"Remember Me"** checkbox to store user information in **cookies** for 30 days. It also saves form data in a text file using basic PHP file handling. A great starting point for beginners learning PHP forms, cookies, and file storage.
 
 ## 🔧 Features
