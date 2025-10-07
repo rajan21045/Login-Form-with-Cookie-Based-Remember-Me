@@ -8,7 +8,7 @@ This is a simple PHP login form that uses a **"Remember Me"** checkbox to store 
 - **User data** stored in a local `data.txt` file
 - Displays messages based on whether the checkbox is checked or not
 - Cookie handling in PHP to store and retrieve user information across sessions
-
+ 
 ## 🍪 Cookies Used:
 - When the **"Remember Me"** checkbox is checked, a **cookie** is set with the user's name, which will persist for 30 days.
 - The cookie allows the user to remain logged in even after closing and reopening the browser, unless the cookie is deleted or expired.
